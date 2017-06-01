@@ -42,7 +42,7 @@
  
   <!--colocar icono app -->
  
- <icon src="res/android/cbtis.png" />
+ <icon src="res/cbtis/mdpi.png" />
  </widget>
 
 	
