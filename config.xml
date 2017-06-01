@@ -2,7 +2,7 @@
 
 <widget xmlns = "http://www.w3.org/ns/widgets"
   xmlns:gap = "http://phonegap.com/ns/1.0"
-  id = "com.phonegap.example9"
+  id = "com.phonegap.example10"
   version = "1.0.0">
   
   <name> app10 difucion del plantel</name>
@@ -33,10 +33,16 @@
   <!--Plugin Para Geolocalizar -->
   <plugin name="cordova-plugin-geolocation" source="npm"/>
   
+   <!-- para accesar a paginas en internet -->
+  <allow-intent href="http://*/*"/>
+  <acces origin="htpp://*/*"/>
+  <allow-intent href="htpp://*/*"/>
+  <acces origin="htpp://*/*"/>
+  <plugin name="cordova-plugin-whitelist" source="npm"/>
 	
 	<!--Colocar icono app -->
 	
-  <icon src="res/android/cbtis.png" />
+  <icon src="res/android/mdpi.png" />
   
 	
   </widget>
